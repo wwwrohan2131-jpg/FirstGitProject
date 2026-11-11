@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    padding: 12px;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #444;
+}
+
+#message {
+    margin-top: 15px;
+}
